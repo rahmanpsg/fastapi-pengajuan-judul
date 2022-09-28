@@ -1,0 +1,6 @@
+__pycache__/
+.DS_Store
+.env
+*.csv
+*.json
+*.ipynb
