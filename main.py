@@ -35,6 +35,3 @@ def prosesKNN(knn: KNNBase):
 @app.get("/api/calculateTFIDF")
 def calculateTFIDF():
     return KNN.calculateTFIDF()
-
-
-# app.mount("/", StaticFiles(directory="static", html=True), name="site")
